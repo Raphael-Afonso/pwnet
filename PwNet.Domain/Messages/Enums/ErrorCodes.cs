@@ -1,0 +1,34 @@
+﻿namespace PwNet.Domain.Messages.Enums
+{
+    public enum ErrorCodes
+    {
+        Success,
+        Unknown,
+        InvalidLogin,
+        WrongMessage,
+        TimedOut,
+        IncorrectParameter,
+        CannotSaveFriends,
+        Unsupported,
+        ComunicationFailed,
+        AccountLoggedInAndLocked,
+        AccountLoggedIn,
+        InvalidAmount,
+        UnknowError12,
+        CharacterInfoRetrievalFailed,
+        LoginFailed,
+        ServerIsFull,
+        CharacterAlreadyInGame,
+        UnknowError17,
+        QueueIsFull,
+        UnknownError19, 
+        UnknowError20, 
+        FailedToForward, 
+        ForwardingTimeoutError, 
+        InsuficientCredits,
+        AccountBlocked, 
+        NameNotAllowed, 
+        UnauthorizedIPConnection, 
+        MatrixRetryLimitExceeded
+    }
+}
